@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/pang"
+    android:layout_margin="4dp"
+    android:elevation="4dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/textViewShoppingListName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/buttonShareList"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/contentDescShare"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_share" />
+
+    <ImageButton
+        android:id="@+id/buttonDeleteShoppingList"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/contentDescDelete"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/buttonRenameShoppingList"
+        android:layout_width="40dp"
+        android:layout_height="51dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/contentDescRename"
+        android:src="@drawable/ic_edit_text" />
+</LinearLayout>

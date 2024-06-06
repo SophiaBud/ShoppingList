@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="contentDescShare">Поделиться</string>
+    <string name="contentDescDelete">deleteBtn</string>
+    <string name="tvPrice">Цена</string>
+    <string name="tvQuantity">Количество</string>
+    <string name="tvName">Название продукта</string>
+    <string name="tvhName">Название продукта</string>
+    <string name="tvhQuantity">Количество</string>
+    <string name="tvhPrice">Цена</string>
+    <string name="btnAddProduct">Добавить продукт</string>
+    <string name="etSLName">Название списка покупок</string>
+    <string name="btnSLAdd">Добавить список покупок</string>
+    <string name="btnSLShare">Поделиться списками покупок</string>
+    <string name="log_in">Войти</string>
+    <string name="author">Разработала: Будрик София РИБО-04-22</string>
+    <string name="password">Пароль</string>
+    <string name="login">Имя пользователя</string>
+    <string name="shopping_basket_2">shopping_basket_2</string>
+    <string name="contentDescRename">btnRenameSL\n</string>
+    <string-array name="unit_array">
+        <item>кг</item>
+        <item>г</item>
+        <item>шт.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue_2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextShoppingListName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etSLName"
+        android:background="@drawable/edit_text_background"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonAddShoppingList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btnSLAdd"
+        style="?attr/buttonStyle" />
+
+    <Button
+        android:id="@+id/buttonShareShoppingLists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btnSLShare"
+        style="?attr/buttonStyle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewShoppingLists"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp" />
+</LinearLayout>
